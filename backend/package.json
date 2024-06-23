@@ -1,0 +1,37 @@
+{
+  "name": "restful",
+  "version": "1.0.0",
+  "description": "practical exam in ne 2023 making authentication, authorization product management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon swagger.js --ignore swagger-output.json",
+    "swagger": "node ./swagger.js"
+  },
+  "keywords": [
+    "restful"
+  ],
+  "author": "mireille",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "joi": "^17.12.1",
+    "joi-password-complexity": "^5.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.9.7",
+    "nodemon": "^3.1.3",
+    "pg": "^8.11.5",
+    "sequelize": "^6.37.3",
+    "swagger-autogen": "^2.23.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui": "^5.11.3",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
